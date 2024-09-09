@@ -86,9 +86,9 @@ $T_e$为电磁转矩
 
 $p$为电机极对数
 
-$\lambda_d,\lambda_q$为$d$轴和$q$轴的磁链分量
+$\lambda_d,\lambda_q为d轴和q $轴的磁链分量
 
-$I_d$和$I_q$为d轴和q轴的电流矢量
+$I_d和I_q为d轴和q轴的电流矢量 $
 
 
 ***FOC实现流程图***
