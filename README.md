@@ -34,7 +34,6 @@ $$\left[\begin{matrix}I_\alpha\\I_\beta\end{matrix}\right]=\left[\begin{matrix}
     I_b\\
     I_c
   \end{matrix}\right]
-  \tag{3}
 $$
 
 ***Park变换***
