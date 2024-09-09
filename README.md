@@ -24,7 +24,13 @@ $$I_a+I_b+I_c=0$$
 
 ***Clark变换***
 
-Clarke变换用于将三相电流$I_a,I_b,I_c$转换为α-β静止参考系下的两相电流$I_\alpha,I_\beta :$
+Clarke变换用于将三相电流
+
+$I_a,I_b,I_c$
+
+转换为α-β静止参考系下的两相电流
+
+$I_\alpha,I_\beta:$
 
 $$\left[\begin{matrix}I_\alpha\\
 I_\beta\\
