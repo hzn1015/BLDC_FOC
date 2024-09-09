@@ -62,8 +62,7 @@ $$
 
 对于无刷电机三相电压，满足以下方程：
 
-$$V_s=I_s*R_s+L_s*\frac{dI_s}{dt}+e_s
-$$ 
+$$V_s=I_sR_s+L_s\frac{dI_s}{dt}+e_s$$ 
 
 其中
 $V_s$为定子绕组的电压矢量
