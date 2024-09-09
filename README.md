@@ -74,14 +74,14 @@ $R_s$为定子绕组的电阻
 $L_s$为定子电感（包括自感和互感）
 
 $e_s$为反电动势
-反电动势$e_s$是定子磁链随时间变化产生的，反映了电机运行中的电动势，并且与转子的位置相关。通常表示为：$ e_s=\lambda_s*\frac{d\theta_r}{dt} $
+反电动势$e_s$是定子磁链随时间变化产生的，反映了电机运行中的电动势，并且与转子的位置相关。通常表示为：$e_s=\lambda_s\frac{d\theta_r}{dt}$
 
 ***转矩方程***
-$$ T_e=\frac{3}{2}p(\lambda_fI_q+(L_d-L_q)I_dI_q) $$
+$$T_e=\frac{3}{2}p(\lambda_fI_q+(L_d-L_q)I_dI_q)$$
 其中
 $T_e$为电磁转矩
 $p$为电机极对数
-$\lambda_d ,\lambda_q$为$d$轴和$q$轴的磁链分量
+$\lambda_d,\lambda_q$为$d$轴和$q$轴的磁链分量
 $I_d$和$I_q$为d轴和q轴的电流矢量
 
 ***FOC实现流程图***
