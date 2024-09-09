@@ -22,9 +22,7 @@ $$ I_a+I_b+I_c=0 \tag{2}$$
 Clarke变换用于将三相电流$I_a,I_b,I_c$ 转换为 α-β 静止参考系下的两相电流$I_\alpha,I_\beta$:
 
 $$
-  \left[\begin{matrix}
-  I_\alpha \\
-  I_\beta  \\  \end{matrix}\right] =\left[\begin{matrix}    1&-\frac{1}{2}&-\frac{1}{2}\\    0&\frac{\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\\  \end{matrix}\right]   \left[\begin{matrix}    I_a\\    I_b\\
+  \left[\begin{matrix}I_\alpha \\ I_\beta  \end{matrix}\right] =\left[\begin{matrix}1&-\frac{1}{2}&-\frac{1}{2}\\0&\frac{\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\\\end{matrix}\right]\left[\begin{matrix}    I_a\\    I_b\\
     I_c\\  \end{matrix}\right]\tag{3}
 $$
 
