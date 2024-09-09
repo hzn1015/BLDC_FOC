@@ -8,22 +8,32 @@
 对于无刷电机来说，我们通过控制无刷电机A，B，C三相的电流来控制磁场，从而驱动无刷电机。
 无刷电机的定子上有三个绕组，它们彼此相隔120°电角度。假设这三相绕组是对称的，分别为A,B,C
 ，它们所产生的电动势也是对称的，且相位差为120°。因此，每一相电流的表达式可以写成正弦波的形式：
-
-$$ I_a = I \sin(\omega_rt) $$
-$$ I_b = I\sin(\omega_rt-\frac{2\pi}{3}) $$
-$$ I_c = I\sin(\omega_rt-\frac{2\pi}{3}) \tag{1} $$ 
+$$ I_a=I\sin(\omega_rt) $$
+$$ I_b=I\sin(\omega_rt-\frac{2\pi}{3}) $$
+$$ I_c=I\sin(\omega_rt-\frac{2\pi}{3}) \tag{1}$$ 
 
 $\omega_r为转子的速度（注意这个速度是电角度的速度）$
-
 ***电流关系***
 由基尔霍夫定律有：
 $$ I_a+I_b+I_c=0 \tag{2}$$
-
 ***Clark变换***
 Clarke变换用于将三相电流$I_a,I_b,I_c$ 转换为 α-β 静止参考系下的两相电流$I_\alpha,I_\beta$:
 
-$$\left[\begin{matrix}I_\alpha \\ I_\beta  \end{matrix}\right] =\left[\begin{matrix}1&-\frac{1}{2}&-\frac{1}{2}\\0&\frac{\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\\\end{matrix}\right]\left[\begin{matrix}    I_a\\    I_b\\
-    I_c\\  \end{matrix}\right]\tag{3}
+$$
+  \left[\begin{matrix}
+  I_\alpha \\
+  I_\beta  \\
+  \end{matrix}\right]
+  =\left[\begin{matrix}
+    1&-\frac{1}{2}&-\frac{1}{2}\\
+    0&\frac{\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\\
+  \end{matrix}\right] 
+  \left[\begin{matrix}
+    I_a\\
+    I_b\\
+    I_c\\
+  \end{matrix}\right]
+  \tag{3}
 $$
 
 ***Park变换***
