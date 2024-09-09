@@ -44,7 +44,9 @@ $$
 
 利用转子的位置角 $\theta_r，将\alpha-\beta静止坐标系下的两相电流转换为与转子磁场同步旋转坐标系d-p$坐标系下的电流I_d,I_q $
 
-$$\left[\begin{matrix}I_q\\I_d\\\end{matrix}\right]=\left[
+$$\left[\begin{matrix}I_q\\
+I_d\\\
+end{matrix}\right]=\left[
     \begin{matrix}
         \cos(\theta_r)&\sin(\theta_r)\\-\sin(\theta_r)&\cos(\theta_r)\\
     \end{matrix}\right]\left[
