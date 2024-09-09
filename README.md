@@ -42,7 +42,7 @@ $$
 
 ***Park变换***
 
-利用转子的位置角 $\theta_r，将\alpha-\beta静止坐标系下的两相电流转换为与转子磁场同步旋转坐标系d-p$坐标系下的电流I_d,I_q $
+利用转子的位置角 $\theta_r，将\alpha-\beta静止坐标系下的两相电流转换为与转子磁场同步旋转坐标系d-p坐标系下的电流I_d,I_q $
 
 $$\left[\begin{matrix}I_q\\
 I_d\\
