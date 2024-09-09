@@ -13,7 +13,7 @@
 $$
 I_a=I\sin(\omega_rt) 
 I_b=I\sin(\omega_rt-\frac{2\pi}{3}) 
-I_c=I\sin(\omega_rt-\frac{2\pi}{3}) \tag{1}
+I_c=I\sin(\omega_rt-\frac{2\pi}{3})\tag{1}
 $$ 
 
 $\omega_r为转子的速度（注意这个速度是电角度的速度）$
