@@ -23,7 +23,7 @@ $\omega_r为转子的速度（注意这个速度是电角度的速度）$
 $$I_a+I_b+I_c=0$$
 
 ***Clark变换***
-Clarke变换用于将三相电流$I_a,I_b,I_c转换为 α-β 静止参考系下的两相电流I_\alpha,I_\beta$:
+Clarke变换用于将三相电流$I_a,I_b,I_c转换为α-β静止参考系下的两相电流I_\alpha,I_\beta$:
 
 $$\left[\begin{matrix}I_\alpha\\
 I_\beta\\
