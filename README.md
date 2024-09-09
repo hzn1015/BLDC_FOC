@@ -44,9 +44,7 @@ $$
 
 利用转子的位置角 $\theta_r，将\alpha-\beta静止坐标系下的两相电流转换为与转子磁场同步旋转坐标系d-p$坐标系下的电流I_d,I_q $
 
-$$
-\left[
-    \begin{matrix}
+$$\left[\begin{matrix}
         I_q\\
         I_d\\
     \end{matrix}
@@ -62,8 +60,7 @@ $$
     I_\alpha\\
     I_\beta
 \end{matrix}
-\right]
-$$
+\right]$$
 ***电压方程***
 
 对于无刷电机三相电压，满足以下方程：
