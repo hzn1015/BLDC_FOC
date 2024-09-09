@@ -25,12 +25,10 @@ $$
   \left[\begin{matrix}
   I_\alpha \\
   I_\beta  \\
-  \end{matrix}\right]
-  =\left[\begin{matrix}
+  \end{matrix}\right] =\left[\begin{matrix}
     1&-\frac{1}{2}&-\frac{1}{2}\\
     0&\frac{\sqrt{3}}{2}&-\frac{\sqrt{3}}{2}\\
-  \end{matrix}\right] 
-  \left[\begin{matrix}
+  \end{matrix}\right]   \left[\begin{matrix}
     I_a\\
     I_b\\
     I_c\\
