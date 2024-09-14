@@ -45,7 +45,7 @@ $$\left \{\begin{matrix}
 其中 $u_A,u_B,u_C$为三相绕组电压， $i_A,i_B,i_C$ 为三相绕组相电流， $\psi_A,\psi_B,\psi_C$  是三相绕组磁链，$R_s$ 为绕组相电阻（这里认为三相绕组的项电阻都相等）
 
 磁链表达式为：
-$$\left\{\begin{matrix}
+$$\left {\begin{matrix}
   \psi_A=L_{AA}i_A+M_{AB}i_B+M_{AC}i_C+\psi_{fA}\\
   \\
   \psi_B=M_{BA}i_A+L_{BB}i_B+M_{BC}i_C+\psi_{fB}\\
