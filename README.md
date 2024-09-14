@@ -32,16 +32,15 @@ $P_n为极对数，f为三相定子电源频率$
 (3)忽略磁场高次谐波，电机感应电势呈正弦波。\\
 因此可以得到永磁同步电机定子电势平衡方程式和磁链表达式如下:\\
 
-定子电势平衡方程式：\\
+定子电势平衡方程式：
 
-$$ \left\{\begin{matrix}
+$$\left\{\begin{matrix}
   u_A=R_si_A+\frac{d\psi_A}{dt}\\
 \\
   u_B=R_si_B+\frac{d\psi_B}{dt}\\
 \\
   u_C=R_si_C+\frac{d\psi_C}{dt}\\
-\end{matrix}\right.
-$$
+\end{matrix}\right.$$
 
 其中 $u_A,u_B,u_C$为三相绕组电压， $i_A,i_B,i_C$ 为三相绕组相电流， $\psi_A,\psi_B,\psi_C$  是三相绕组磁链，$R_s$ 为绕组相电阻（这里认为三相绕组的项电阻都相等）
 
