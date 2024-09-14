@@ -34,7 +34,7 @@ $P_n为极对数，f为三相定子电源频率$
 
 定子电势平衡方程式：
 
-$$\left\{\begin{matrix}
+$$\left \{\begin{matrix}
   u_A=R_si_A+\frac{d\psi_A}{dt}\\
 \\
   u_B=R_si_B+\frac{d\psi_B}{dt}\\
