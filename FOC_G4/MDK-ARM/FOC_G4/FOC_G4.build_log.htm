@@ -1,0 +1,69 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: zn H, dgut, LIC=EXJT4-F9CRM-MML9I-TV2SD-3RT7S-UBXYQ
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.40.0.3
+Toolchain Path:  D:\Keil\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.3.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\BLDC_FOC\project\FOC_G4\MDK-ARM\FOC_G4.uvprojx
+Project File Date:  10/27/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'D:\Keil\ARM\ARMCLANG\Bin'
+Build target 'FOC_G4'
+usr/src/FOC.c(328): warning: using integer absolute value function 'abs' when argument is of floating point type [-Wabsolute-value]
+  328 |         if(abs(err)<2)
+      |            ^
+usr/src/FOC.c(328): note: use function 'fabsf' instead
+  328 |         if(abs(err)<2)
+      |            ^~~
+      |            fabsf
+1 warning generated.
+compiling FOC.c...
+linking...
+Program Size: Code=44966 RO-data=1086 RW-data=148 ZI-data=8196  
+FromELF: creating hex file...
+"FOC_G4\FOC_G4.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32G4xx_DFP.1.6.0.pack
+                Keil::STM32G4xx_DFP@1.6.0
+                STMicroelectronics STM32G4 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_FOC_G4
+  D:/Keil/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  D:/Keil/Keil/STM32G4xx_DFP/1.6.0/Drivers/CMSIS/Device/ST/STM32G4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>
